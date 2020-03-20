@@ -28,5 +28,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-
-## cnpm i babel-plugin-import -D
+## cnpm i --save vant 安装vant组件库
+## cnpm i babel-plugin-import -D 安装自动导入组件
