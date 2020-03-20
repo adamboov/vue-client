@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <vant-button type="primary">测试 vant 组件库</vant-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { Button } from 'vant'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    [Button.name] : Button
   }
 }
 </script>
